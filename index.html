@@ -11,11 +11,73 @@
       href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap"
       rel="stylesheet"
     />
+     <!-- for header fonts  -->
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
+
     <!-- for footer fonts  -->
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
 
   </head>
   <body>
+    <header>
+        <div class="container">
+          <div class="header-wrapper">
+            <div class="header-logo">
+              <img src="./assets/img/logo.png" alt="logo">
+            </div>
+            <div class="navbar">
+              <nav>
+                <ul class="nav-list">
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">
+                      Rugs
+                      <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M2.6939 5.0185C2.77439 4.93563 2.88242 4.88508 2.99761 4.87638C3.11281 4.86767 3.22721 4.90142 3.31923 4.97125L3.3729 5.01792L7.21998 8.94317L11.0671 5.0185C11.1476 4.93563 11.2556 4.88508 11.3708 4.87638C11.486 4.86767 11.6004 4.90142 11.6924 4.97125L11.7461 5.01792C11.8278 5.10176 11.8772 5.21175 11.8858 5.32849C11.8943 5.44524 11.8614 5.56125 11.7927 5.65609L11.7461 5.71092L7.55948 9.9815C7.38915 10.1553 7.12198 10.1711 6.93415 10.0288L6.88048 9.98208L2.6939 5.71092C2.60385 5.61817 2.55348 5.49398 2.55348 5.36471C2.55348 5.23544 2.60385 5.11125 2.6939 5.0185Z" fill="white"/>
+                      </svg>
+                    </a>
+                    <div class="dropdown-menu">
+                      <a href="#">Area Rugs</a>
+                      <a href="#">Runner Rugs</a>
+                      <a href="#">Outdoor Rugs</a>
+                      <a href="#">Kitchen Rugs</a>
+                    </div>
+                  </li>
+                  <li><a href="#">Rug Pad</a></li>
+                  <li><a href="#">Inspiration</a></li>
+                  <li><a href="#">About Us</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="left-header">
+              <div class="left-header-wrapper">
+                <div class="header-svgs">
+                  <div class="header-svg">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M1 10.5C1 5.25332 5.25332 1 10.5 1C15.7467 1 20 5.25332 20 10.5C20 15.7467 15.7467 20 10.5 20C5.25332 20 1 15.7467 1 10.5ZM10.5 3C6.35788 3 3 6.35788 3 10.5C3 14.6421 6.35788 18 10.5 18C14.6421 18 18 14.6421 18 10.5C18 6.35788 14.6421 3 10.5 3Z" fill="white" />
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M15.9037 15.9037C16.2943 15.5132 16.9274 15.5132 17.3179 15.9037L21.5606 20.1464C21.9511 20.5369 21.9511 21.1701 21.5606 21.5606C21.1701 21.9511 20.5369 21.9511 20.1464 21.5606L15.9037 17.3179C15.5132 16.9274 15.5132 16.2943 15.9037 15.9037Z" fill="white" />
+                    </svg>
+                  </div>
+                  <div class="header-svg">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M12 3C10.3431 3 9 4.34315 9 6C9 7.65685 10.3431 9 12 9C13.6569 9 15 7.65685 15 6C15 4.34315 13.6569 3 12 3ZM7 6C7 3.23858 9.23858 1 12 1C14.7614 1 17 3.23858 17 6C17 8.76142 14.7614 11 12 11C9.23858 11 7 8.76142 7 6Z" fill="white" />
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M2 22C2 16.4772 6.47717 12 12 12C17.5228 12 22 16.4772 22 22C22 22.5523 21.5523 23 21 23C20.4477 23 20 22.5523 20 22C20 17.5817 16.4183 14 12 14C7.58173 14 4 17.5817 4 22C4 22.5523 3.55228 23 3 23C2.44772 23 2 22.5523 2 22Z" fill="white" />
+                    </svg>
+                  </div>
+                  <div class="header-svg">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 7C5.22386 7 5 7.22386 5 7.5V19.5C5 19.7761 5.22386 20 5.5 20H18.5C18.7761 20 19 19.7761 19 19.5V7.5C19 7.22386 18.7761 7 18.5 7H5.5ZM3 7.5C3 6.11929 4.11929 5 5.5 5H18.5C19.8807 5 21 6.11929 21 7.5V19.5C21 20.8807 19.8807 22 18.5 22H5.5C4.11929 22 3 20.8807 3 19.5V7.5Z" fill="white" />
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M7 5C7 2.79086 9 1 12 1C15 1 17 2.79086 17 5V9C17 9.55228 16.5523 10 16 10C15.4477 10 15 9.55228 15 9V5C15 3.89543 13.5 3 12 3C10.5 3 9 3.89543 9 5V9C9 9.55228 8.55228 10 8 10C7.44772 10 7 9.55228 7 9V5Z" fill="white" />
+                    </svg>
+                  </div>
+                </div>
+                <div class="header-btn">
+                  <a href="#">Open Account</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
     <section class="hero">
       <div class="container">
         <div class="hero-content">
